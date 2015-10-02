@@ -3,9 +3,29 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.saitov.libs</groupId>
     <artifactId>transliteration</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
-    <properties>
+	<name>Transliteration</name>
+	<description>Transliteration Maven module for Java. It converts special characters in unicode text into corresponding ascii letters, with support of nearly every common languages including CJK (Chinese, Japanese and Korean).</description>
+     <url>https://github.com/mics-/transliteration</url>
+	 <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/mics-/transliteration/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+    <developers>
+    <developer>
+      <name>Michael Saitov</name>
+      <email>mics.home@gmail.com</email>
+    </developer>
+  </developers>
+    <scm>
+    <connection>scm:git:git@github.com:mics-/transliteration.git</connection>
+    <developerConnection>scm:git:git@github.com:mics-/transliteration.git</developerConnection>
+    <url>git@github.com:mics-/transliteration.git</url>
+  </scm>
+	<properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
